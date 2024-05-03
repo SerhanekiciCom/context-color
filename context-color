@@ -139,7 +139,7 @@ __context_color_sequence() {
 
     if [ -n "$CC_PROMPT" ]
     then
-        sequence="\\[${sequence}\\]"
+        sequence="${sequence}"
     fi
     printf "%s" "$sequence"
 }
