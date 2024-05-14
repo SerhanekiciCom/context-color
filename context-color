@@ -25,6 +25,8 @@ readonly DEFAULT_EXCLUDES
 DEFAULT_METHOD="sum"
 readonly DEFAULT_METHOD
 
+export LC_ALL=C
+
 __context_color_usage() {
     cat <<- EOF
 usage: $PROGNAME [OPTIONS]
